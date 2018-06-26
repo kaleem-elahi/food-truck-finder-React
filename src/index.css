@@ -1,0 +1,85 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+.form {
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  -ms-flex-pack: justify;
+  justify-content: center;
+  z-index: 1;
+  background: #ffffff;
+  margin: 10px auto;
+}
+
+.form > input[type='search'] {
+  width: 20%;
+  padding: 5px;
+}
+
+.range-bar, input[type='range'] {
+  /* float: right; */
+  width: 96%;
+}
+.range-bar {
+  display: flex;
+}
+
+.filter-beside-map {
+  display: flex;
+}
+
+.filter {
+  margin-top: 50px; 
+  margin-left: 11px; 
+  width: 25%;
+  -o-text-overflow: ellipsis;
+  white-space: pre-wrap;
+  position: fixed;
+  z-index: 1;
+}
+
+.filter-checkbox > label{
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.filter-checkbox {
+  text-overflow: ellipsis;
+  overflow: hidden;
+  /* white-space: nowrap; */
+}
+
+.food-item-text {
+  position: sticky;
+  top: -10px;
+  background: #e5f3fe;
+  text-align: center;
+  padding: 3px;
+}
+
+.app-name {
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  letter-spacing: .06em;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+}
+
+.Select--multi .Select-value {
+  display: flex!important;
+}
+
+.Select-menu-outer {
+  z-index: 9999;
+}
+
+.Select-clear-zone, .Select-arrow-zone {
+  vertical-align: top!important;
+  padding-top: 12px;
+}
